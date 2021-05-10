@@ -2,6 +2,6 @@
 ## Team members:
 ### -Angeline Karen
 ### -Ardelia Shaula Araminta
-### -Jason jeremy
+### -Jason Jeremy Wijadi
 ### -Michael Christopher
 ### -Vania Natalie

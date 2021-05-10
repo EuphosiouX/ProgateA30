@@ -7,6 +7,25 @@
     .top-wrapper a {
         font-size: 16px;
     }
+
+    .btn2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+
+    .container2 h1 {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .container2 .box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 /* -- For Smartphones -- */
@@ -63,10 +82,10 @@
         line-height: 20px;
     }
 
-    .container1 {  
+    .container1 {
         width: 400px;
         padding: 0 15px;
-        margin: 0px auto; 
+        margin: 0px auto;
     }
 
     .section2 h1 {
@@ -79,19 +98,30 @@
         line-height: 20px;
     }
 
-    .container {  
+    .btn2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container {
         width: 400px;
         padding: 0 15px;
-        margin: 0px auto; 
+        margin: 0px auto;
     }
 
     .container2 {
         font-size: 24px;
         line-height: 36px;
+        flex-direction: column;
     }
 
+    .container2 h1 {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .container2 .box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
-
-
-	
-
