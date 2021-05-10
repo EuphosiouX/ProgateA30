@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+	padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica";
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* --- Animation Keyframes --- */
+
+@keyframes slideInLeftButton {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 0.8;
+    }
+}
+
+@keyframes fadeInForward {
+    0% {
+        transform: translateZ(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+/* --- Header CSS --- */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+}
+
+.header-left a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+span.menu-icon {
+    color: white;
+    float: right;
+    padding: 25px 0;
+    display: none;
+}
+
+/* --- Top CSS --- */
+
+.top-wrapper {
+    padding: 415px 0 415px 0;
+    background-image: url(http://www.frontierworlds.org/wp-content/uploads/2019/11/nebula.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    animation-name: fadeInForward;
+    animation-duration: 5s;
+}
+
+.top-wrapper p {
+    margin-bottom: 15px;
+    animation-name: fadeInForward;
+    animation-duration: 10s;
+}
+
+/* --- Button CSS --- */
+
+.btn-wrapper {
+    margin: 10px 100px;
+}
+
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.readmore {
+    color: #000000;
+    background-color: #fffdd0;
+    animation-name: slideInLeftButton;
+    animation-duration: 5s;
+}
+
+.mid-wrapper {
+    overflow: hidden;
+    position: relative;
+    padding: 315px 0 315px 0;
+    color: white;
+    background-color: #000;
+    text-align: right;
+}
+
+.bg-img {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+}
+
+.container1 {  
+    width: 500px;
+    padding: 0 15px;
+    margin: 80px auto; 
+    margin-right: 100px;
+}
+
+.container1 h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.container1 p {
+    opacity: 0.7;
+    text-align: justify; 
+    line-height:25px;
+}
+
+.section2 {
+    padding: 200px 0 300px 0;
+    background-image:url(https://www.dlf.pt/png/big/7/72254_space-wallpaper-png.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.section2 h3 {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.btn2 {
+    color:white;
+    display:inline-block;
+	background-color: #222222;
+    padding: 24px 24px;
+    border: 2px solid #878787;
+    border-radius: 15px;
+    margin-right: 70px;
+}
+
+.btn2:hover {
+	background-color: #989898;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.container2 {
+	margin: 0;
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100vh; 
+	background-image:url(https://www.rxwallpaper.site/wp-content/uploads/the-milky-way-mountain-wallpaper-nature-and-landscape-1200x1024.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+}
+
+.box {
+	padding: 10px 10px 0 30px;
+	position: relative; 
+	width: 300px;
+	height: 400px; 
+	background:#000;
+	box-shadow: 0 0 ;
+	border-radius: 50px 20px;
+}
+
+.box .imgBox {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	width: 100%;
+	height: 100%;
+	border-radius: 50px 20px;
+
+}
+
+.box .imgBox img {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
+	transition: 1s;
+	border-radius: 50px 20px;
+	align-items: center;
+}
+
+.box:hover .imgBox img {
+	opacity:0;
+	border-radius: 50px 20px;
+}
+
+.contents {
+	 color: #222;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 13px;
+	 font-weight: 400;
+	 line-height: 24px;
+	 margin: 0 0 14px; }
+
+.funfact {
+	color: #7c795d;
+	font-family: 'Trocchi', serif;
+	font-size: 20px; font-weight: normal;
+	line-height: 21px; 
+	margin: 0; 
+	text-align: center;
+}
+.funfact-content {
+	color:black;
+	 font-family: 'Trocchi', serif; 
+	 font-size: 16px; 
+	 font-weight: normal; 
+	 line-height: 21px; margin: 0; 
+	 text-align: center;
+}
+
+.box .content {
+	position: absolute;
+	bottom : 20px; 
+	padding-left: 10%;
+	align-items: center;
+	left: 10;
+	width: 80%; 
+	height: 60px;
+	background: #fff;
+	font-size: 10px;
+	text-align: left;
+	overflow: hidden;
+	opacity: 0.7;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.box:hover .content {
+	width: 100%;
+	height: 100%;
+	bottom: 0; 
+	left: 0;
+	border-radius: 50px 20px;
+}
+
+
+/* --- Footer CSS --- */
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #000000;
+    font-size: large;
+}
